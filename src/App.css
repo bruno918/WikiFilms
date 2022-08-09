@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+
+.botao {
+  margin-left: 300px;
+}
+
+.Sdestaque2 {
+  display: flex;
+justify-content: center;
+align-items: center;
+  margin-top: 58px;
+  flex-direction: column;
+
+  padding: 65px;
+}
+
+
+.Tdestaque {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+.Sdestaque {
+  margin-top: 58px;
+  width: 50%;
+  padding: 65px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0f0f0f;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}
+
+
+.categoria-lista {
+  display: flex;
+  overflow: hidden;
+}
+
+.categoria-lista img {
+  height: 200px;
+  transform: scale(0.9);
+  transition: ease 0.2s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categoria-lista img:hover {
+  transform: scale(1);
+}
+
+.botao-lista {
+  position: sticky;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.categoria-esquerda {
+  left: 0;
+}
+
+.categoria-direita {
+  right: 0;
+}
+
+.icone {
+  transform: scale(0.9);
+  transition: ease 0.2s;
+}
+
+.icone:hover {
+  transform: scale(1.2);
+}
+
+.wikiflix {
+  margin-top: 220px;
+  font-size: 100px;
+  margin-left: 90px
+}
+.desc {
+  margin-left: 200px
+  
+}
